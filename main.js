@@ -4,6 +4,7 @@ const screen1 = document.querySelector(".screen1")
 const btnTry = document.querySelector("#btnTry")
 const btnReset = document.querySelector("#btnReset")
 const ramdomNumber = Math.round(Math.random() * 10)
+console.log(`O valor gerado é ${ramdomNumber}`)
 let xAttemps = 1
 
 //Eventos
